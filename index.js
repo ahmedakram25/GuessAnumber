@@ -40,7 +40,7 @@ while(play){
                
         }    
         else{
-                 window.alert(`Correct, You guessed it in ${Attempts} Attempt🥳`);
+                 window.alert(`Correct,The Number was ${random},${Attempts} Attempt🥳`);
                  play = false ;
         }
                 
@@ -50,6 +50,7 @@ while(play){
 
 
         
+
 
 
 
