@@ -44,11 +44,11 @@ continue;
                 break; }
                 
         else if(random < guess){
-                window.alert("too high,Try Again");
+                window.alert(`too high,Try Again ${Attempts}`);
                
         }
         else if(random > guess){
-                window.alert("too low,Try Again");  
+                window.alert(`too low,Try Again ${Attempts}`);  
                
         }    
         
@@ -59,6 +59,7 @@ continue;
 
 
         
+
 
 
 
