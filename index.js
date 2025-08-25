@@ -30,6 +30,11 @@ while(play){
                 window.alert("invaild Number,please try again");
 
         }
+        Attempts ++ ;
+        if(Attempts === 10){
+                window.alert(`Stupied!,The Correct Answer was ${random}🤪`);
+                break; }
+                
         else if(random < guess){
                 window.alert("too high,Try Again");
                
@@ -42,10 +47,8 @@ while(play){
         
                  window.alert(`${random} is Correct!,${Attempts} Attempts🥳`);
                  play = false ;
-                Attempts ++ ;
-                if(Attempts === 10){
-                window.alert(`Stupied!,The Correct Answer was ${random}🤪`);
-                break; }
+                
+                
         }
                 
 } 
@@ -54,6 +57,7 @@ while(play){
 
 
         
+
 
 
 
