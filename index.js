@@ -35,7 +35,7 @@ continue;
         
                  window.alert(`${random} is Correct!,${Attempts} Attempts🥳`);
                  play = false ;
-                
+                break;                
         
         }
         
@@ -59,6 +59,7 @@ continue;
 
 
         
+
 
 
 
