@@ -32,15 +32,15 @@ while(play){
 
         }
         else if(random < guess){
-                window.alert("too high");
+                window.alert("too high,Try Again");
                
         }
         else if(random > guess){
-                window.alert("too low");  
+                window.alert("too low,Try Again");  
                
         }    
         else{
-                 window.alert(`correct, You guessed it in ${Attempts} `);
+                 window.alert(`correct, You guessed it in ${Attempts} Attempts`);
                  play = false ;
         }
                 
@@ -50,3 +50,4 @@ while(play){
 
 
         
+
