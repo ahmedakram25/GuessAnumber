@@ -13,7 +13,7 @@ while(play){
         if(guess === null){
                 window.alert("Game Canceled");
                 break;
-        }
+        
         if(guess.trim() === ""){
                 window.alert("You must enter a number");
                 continue;
@@ -42,7 +42,7 @@ while(play){
                  play = false ;
                 if(Attempts === 10){
                 window.alert(`Stupied!,The Correct Answer was ${random}🤪`);
-                break;
+                break; }
         }
                 
 } 
@@ -51,6 +51,7 @@ while(play){
 
 
         
+
 
 
 
