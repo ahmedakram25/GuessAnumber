@@ -33,7 +33,7 @@ continue;
                 Attempts ++ ;
         if(random===guess){
         
-                 window.alert(`${random} is Correct!,${Attempts} Attempts🥳`);
+                 window.alert(`${random} is Correct!, ${Attempts} Attempts 🥳`);
                  play = false ;
                 break;                
         
@@ -59,6 +59,7 @@ continue;
 
 
         
+
 
 
 
