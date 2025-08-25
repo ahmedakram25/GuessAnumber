@@ -13,6 +13,7 @@ while(play){
         if(guess === null){
                 window.alert("Game Canceled");
                 break;
+        }
         
         if(guess.trim() === ""){
                 window.alert("You must enter a number");
@@ -21,10 +22,10 @@ while(play){
         }
 
         guess = Number(guess);
-        Attempts ++ ; 
+         
         
         
-        }
+        
         if(isNaN(guess) || guess > maxNum || guess < minNum){
                 window.alert("invaild Number,please try again");
 
@@ -38,8 +39,10 @@ while(play){
                
         }    
         else{
+        
                  window.alert(`${random} is Correct!,${Attempts} Attempts🥳`);
                  play = false ;
+                Attempts ++ ;
                 if(Attempts === 10){
                 window.alert(`Stupied!,The Correct Answer was ${random}🤪`);
                 break; }
@@ -51,6 +54,7 @@ while(play){
 
 
         
+
 
 
 
