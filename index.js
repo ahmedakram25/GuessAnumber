@@ -1,5 +1,5 @@
 const minNum = 0;
-const maxNum = 1000;
+const maxNum = 2000;
 let guess ;
 let random = Math.floor(Math.random()*(maxNum - minNum + 1)) + minNum;
 let play = true ;
@@ -59,6 +59,7 @@ continue;
 
 
         
+
 
 
 
