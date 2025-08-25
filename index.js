@@ -31,7 +31,7 @@ while(play){
 continue;
         }
                 Attempts ++ ;
-        if{
+        if(random===guess){
         
                  window.alert(`${random} is Correct!,${Attempts} Attempts🥳`);
                  play = false ;
@@ -59,6 +59,7 @@ continue;
 
 
         
+
 
 
 
