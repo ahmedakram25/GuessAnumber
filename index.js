@@ -22,20 +22,21 @@ while(play){
         }
 
         guess = Number(guess);
-         Attempts ++ ;
+         
         
         
         
         if(isNaN(guess) || guess > maxNum || guess < minNum){
                 window.alert("invaild Number,please try again");
-
+continue;
         }
-        else{
+                Attempts ++ ;
+        if{
         
                  window.alert(`${random} is Correct!,${Attempts} Attempts🥳`);
                  play = false ;
                 
-                
+        
         }
         
         if(Attempts === 10){
@@ -58,6 +59,7 @@ while(play){
 
 
         
+
 
 
 
