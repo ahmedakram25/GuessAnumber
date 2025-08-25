@@ -40,7 +40,7 @@ continue;
         }
         
         if(Attempts === 10){
-                window.alert(`Stupied!,The Correct Answer was ${random}🤪`);
+                window.alert(`Stupied!,The Correct Answer was ${random} 🤪`);
                 break; }
                 
         else if(random < guess){
@@ -59,6 +59,7 @@ continue;
 
 
         
+
 
 
 
