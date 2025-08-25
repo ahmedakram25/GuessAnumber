@@ -24,7 +24,7 @@ while(play){
         Attempts ++ ; 
         
         if(Attempts === 11){
-                window.alert(`Stupied,The Correct Answer was ${random}!`);
+                window.alert(`Stupied,The Correct Answer was ${random}!😜`);
                 break;
         }
         if(isNaN(guess) || guess > maxNum || guess < minNum){
@@ -40,7 +40,7 @@ while(play){
                
         }    
         else{
-                 window.alert(`Correct, You guessed it in ${Attempts} Attempts`);
+                 window.alert(`Correct, You guessed it in ${Attempts} Attempt🥳`);
                  play = false ;
         }
                 
@@ -50,5 +50,6 @@ while(play){
 
 
         
+
 
 
