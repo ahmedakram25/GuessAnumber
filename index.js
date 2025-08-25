@@ -3,7 +3,7 @@ const maxNum = 400;
 let guess ;
 let random = Math.floor(Math.random()*(maxNum - minNum + 1)) + minNum;
 let play = true ;
-Attempts = 0;
+let Attempts = 0;
 
 
 while(play){
@@ -23,9 +23,7 @@ while(play){
         guess = Number(guess);
         Attempts ++ ; 
         
-        if(Attempts === 10){
-                window.alert(`Stupied!,The Correct Answer was ${random}🤪`);
-                break;
+        
         }
         if(isNaN(guess) || guess > maxNum || guess < minNum){
                 window.alert("invaild Number,please try again");
@@ -42,6 +40,9 @@ while(play){
         else{
                  window.alert(`${random} is Correct!,${Attempts} Attempts🥳`);
                  play = false ;
+                if(Attempts === 10){
+                window.alert(`Stupied!,The Correct Answer was ${random}🤪`);
+                break;
         }
                 
 } 
@@ -50,6 +51,7 @@ while(play){
 
 
         
+
 
 
 
