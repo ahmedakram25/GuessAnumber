@@ -1,5 +1,5 @@
 const minNum = 0;
-const maxNum = 100;
+const maxNum = 400;
 let guess ;
 let random = Math.floor(Math.random()*(maxNum - minNum + 1)) + minNum;
 let play = true ;
@@ -50,6 +50,7 @@ while(play){
 
 
         
+
 
 
 
